@@ -52,5 +52,5 @@ jobs:
         run: nosetests
         env:
           # Config Syntax: "postgresql://postgres:{password}@{service}:{port}/{database}"
-          DATABASE_URI: postgresql://postgres:pgs3cr3t@postgres:5432/testdb
+          DATABASE_URI: "postgresql://postgres:pgs3cr3t@postgres:5432/testdb"
 ...
